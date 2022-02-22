@@ -1,0 +1,29 @@
+h3{
+    font-size: 25px;
+}
+
+.btn-success:hover{
+    background-color:violet;
+
+}
+
+.btn-info:hover{
+    background-color :plum;
+
+}
+
+.btn-warning:hover{
+    background-color:pink;
+
+}
+
+canvas{
+    animation-name:example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 2px 2px 38px blue;}
+    to{box-shadow: 2px 2px 39px purple;}
+}
